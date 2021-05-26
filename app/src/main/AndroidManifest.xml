@@ -8,8 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NavigationDrawer4">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".AboutActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".SettingActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
