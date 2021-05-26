@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0dp"
+    app:cardBackgroundColor="#1E88E5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_menu"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_menu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telegram"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
