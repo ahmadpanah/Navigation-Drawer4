@@ -80,7 +80,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+       return arrayList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
